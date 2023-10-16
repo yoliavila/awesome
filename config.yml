@@ -1,0 +1,30 @@
+# Configuración para awesomeApp
+
+# Configuración del entorno
+environment: development  
+
+# Configuración de la base de datos
+database:
+  name: awesomeapp_db
+  host: localhost
+  port: 5432
+  username: usuario_db
+  password: contraseña_db
+
+# Configuración del servidor
+server:
+  host: 127.0.0.1
+  port: 3000
+
+# Configuración de autenticación
+authentication:
+  secret_key: tu_clave_secreta
+  expiration_time: 3600  # Tiempo de expiración del token en segundos
+
+# Otras configuraciones específicas de awesomeAPP
+otra_configuracion: valor
+
+# Configuración de API externa (ejemplo)
+api_externa:
+  url: https://api.example.com
+  clave_api: tu_clave_api
